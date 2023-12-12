@@ -1,9 +1,13 @@
-## Chat Multi-Thread
+## MultiThreaded Chat
 
-#### C.I. Sistemi Operativi, Reti e Programmazione, Modulo Programmazione
 #### Università degli Studi Magna Graecia di Catanzaro
+#### C.I. Sistemi Operativi, Reti e Programmazione
+
+#### Modulo: Programmazione
 #### Docente: Pietro Cinaglia
 
-L'esercitazione riguarda l'implementazione di due oggetti, Client e Server rispettivamente, in grado di poter gestire una conversazione tra più client che usano uno stesso server per centralizzare la connessione. L'esercitazione è focalizzati sull'utilizzo dei socket e dei thread in Java.
+L'esercitazione riguarda l'implementazione di un Client e un Server, allo scopo di gestire conversazioni/chat tra i client che si collegano alla componente server; quest'ultima ha lo scopo primario di centralizzare le connessioni e smistare i messaggi tra i client, che non si conoscono tra loro.
 
-Ai fini didattici alcune componenti sono semplificati o omesse, inoltre si sono esclusi volutamente package esterni o metodologie non riguardanti i Socket di Java.
+L'esercitazione è focalizzata all'utilizzo dei socket e dei thread in Java. Si noti che per fini didattici alcune componenti sono semplificate o omesse, inoltre si sono esclusi volutamente package esterni o altre metodologie più complesse non inerenti all'uso proprio dei Socket e dei Thread di Java.
+
+Client e Server sono divisi in due cartelle omonime, che possono essere importate semplicemente tramite Visual Studio Code (https://code.visualstudio.com).
